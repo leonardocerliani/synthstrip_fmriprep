@@ -66,11 +66,6 @@ Importantly, we recommend to run synthstrip with the `--no-csf` option
 
 # Procedure in details
 
-## Preparation
-- structure of the anat folder
-- prepare the bidsignore with `**/*ORIG*`
-- create the venv
-
 ## Skull-stripping with synthstrip
 [Synthstrip](https://surfer.nmr.mgh.harvard.edu/docs/synthstrip/) comes with freesurfer, however it is also possible to use a dockerized version of it.
 
