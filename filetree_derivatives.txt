@@ -1,0 +1,183 @@
+derivatives_fmriprep_synthstrip/
+├── dataset_description.json
+├── logs
+│   ├── CITATION.bib
+│   ├── CITATION.html
+│   ├── CITATION.md
+│   └── CITATION.tex
+├── sub-gutsaumc0010
+│   ├── figures
+│   │   ├── sub-gutsaumc0010_ses-01_acq-ses01_desc-about_T1w.html
+│   │   ├── sub-gutsaumc0010_ses-01_acq-ses01_desc-conform_T1w.html
+│   │   ├── sub-gutsaumc0010_ses-01_acq-ses01_desc-summary_T1w.html
+│   │   ├── sub-gutsaumc0010_ses-01_acq-ses01_dseg.svg
+│   │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_T1w.svg
+│   │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-carpetplot_bold.svg
+│   │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-compcorvar_bold.svg
+│   │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-confoundcorr_bold.svg
+│   │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-coreg_bold.svg
+│   │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-rois_bold.svg
+│   │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-summary_bold.html
+│   │   └── sub-gutsaumc0010_ses-01_task-rest_desc-validation_bold.html
+│   └── ses-01
+│       ├── anat
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_desc-preproc_T1w.json
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_desc-preproc_T1w.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_dseg.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_from-MNI152NLin2009cAsym_to-T1w_mode-image_xfm.h5
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_label-CSF_probseg.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_label-GM_probseg.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_label-WM_probseg.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-preproc_T1w.json
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-preproc_T1w.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_dseg.json
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_dseg.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-CSF_probseg.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-GM_probseg.nii.gz
+│       │   └── sub-gutsaumc0010_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-WM_probseg.nii.gz
+│       ├── func
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-confounds_timeseries.json
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-confounds_timeseries.tsv
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-coreg_boldref.json
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-coreg_boldref.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-hmc_boldref.json
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_desc-hmc_boldref.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_from-boldref_to-T1w_mode-image_desc-coreg_xfm.json
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_from-orig_to-boldref_mode-image_desc-hmc_xfm.json
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_boldref.json
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_boldref.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.json
+│       │   └── sub-gutsaumc0010_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.nii.gz
+│       └── log
+│           └── 20260602-091347_73bac1ab-7052-4543-9baf-0aa9551603fc
+│               └── fmriprep.toml
+├── sub-gutsaumc0010.html
+├── sub-gutsaumc0011
+│   ├── figures
+│   │   ├── sub-gutsaumc0011_ses-01_acq-ses01_desc-about_T1w.html
+│   │   ├── sub-gutsaumc0011_ses-01_acq-ses01_desc-conform_T1w.html
+│   │   ├── sub-gutsaumc0011_ses-01_acq-ses01_desc-summary_T1w.html
+│   │   ├── sub-gutsaumc0011_ses-01_acq-ses01_dseg.svg
+│   │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_T1w.svg
+│   │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-carpetplot_bold.svg
+│   │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-compcorvar_bold.svg
+│   │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-confoundcorr_bold.svg
+│   │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-coreg_bold.svg
+│   │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-rois_bold.svg
+│   │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-summary_bold.html
+│   │   └── sub-gutsaumc0011_ses-01_task-rest_desc-validation_bold.html
+│   └── ses-01
+│       ├── anat
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_desc-preproc_T1w.json
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_desc-preproc_T1w.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_dseg.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_from-MNI152NLin2009cAsym_to-T1w_mode-image_xfm.h5
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_label-CSF_probseg.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_label-GM_probseg.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_label-WM_probseg.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-preproc_T1w.json
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-preproc_T1w.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_dseg.json
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_dseg.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-CSF_probseg.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-GM_probseg.nii.gz
+│       │   └── sub-gutsaumc0011_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-WM_probseg.nii.gz
+│       ├── func
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-confounds_timeseries.json
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-confounds_timeseries.tsv
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-coreg_boldref.json
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-coreg_boldref.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-hmc_boldref.json
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_desc-hmc_boldref.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_from-boldref_to-T1w_mode-image_desc-coreg_xfm.json
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_from-orig_to-boldref_mode-image_desc-hmc_xfm.json
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_boldref.json
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_boldref.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.json
+│       │   └── sub-gutsaumc0011_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.nii.gz
+│       └── log
+│           └── 20260602-091347_73bac1ab-7052-4543-9baf-0aa9551603fc
+│               └── fmriprep.toml
+├── sub-gutsaumc0011.html
+├── sub-gutsaumc0012
+│   ├── figures
+│   │   ├── sub-gutsaumc0012_ses-01_acq-ses01_desc-about_T1w.html
+│   │   ├── sub-gutsaumc0012_ses-01_acq-ses01_desc-conform_T1w.html
+│   │   ├── sub-gutsaumc0012_ses-01_acq-ses01_desc-summary_T1w.html
+│   │   ├── sub-gutsaumc0012_ses-01_acq-ses01_dseg.svg
+│   │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_T1w.svg
+│   │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-carpetplot_bold.svg
+│   │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-compcorvar_bold.svg
+│   │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-confoundcorr_bold.svg
+│   │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-coreg_bold.svg
+│   │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-rois_bold.svg
+│   │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-summary_bold.html
+│   │   └── sub-gutsaumc0012_ses-01_task-rest_desc-validation_bold.html
+│   └── ses-01
+│       ├── anat
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_desc-preproc_T1w.json
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_desc-preproc_T1w.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_dseg.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_from-MNI152NLin2009cAsym_to-T1w_mode-image_xfm.h5
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_label-CSF_probseg.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_label-GM_probseg.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_label-WM_probseg.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-preproc_T1w.json
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_desc-preproc_T1w.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_dseg.json
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_dseg.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-CSF_probseg.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-GM_probseg.nii.gz
+│       │   └── sub-gutsaumc0012_ses-01_acq-ses01_space-MNI152NLin2009cAsym_res-2_label-WM_probseg.nii.gz
+│       ├── func
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-confounds_timeseries.json
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-confounds_timeseries.tsv
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-coreg_boldref.json
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-coreg_boldref.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-hmc_boldref.json
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_desc-hmc_boldref.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_from-boldref_to-T1w_mode-image_desc-coreg_xfm.json
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_from-boldref_to-T1w_mode-image_desc-coreg_xfm.txt
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_from-orig_to-boldref_mode-image_desc-hmc_xfm.json
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_boldref.json
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_boldref.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.json
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-brain_mask.nii.gz
+│       │   ├── sub-gutsaumc0012_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.json
+│       │   └── sub-gutsaumc0012_ses-01_task-rest_space-MNI152NLin2009cAsym_res-2_desc-preproc_bold.nii.gz
+│       └── log
+│           └── 20260602-091347_73bac1ab-7052-4543-9baf-0aa9551603fc
+│               └── fmriprep.toml
+└── sub-gutsaumc0012.html
+
+22 directories, 158 files

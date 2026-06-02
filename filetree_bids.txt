@@ -1,0 +1,46 @@
+bids/
+├── dataset_description.json
+├── participants.json
+├── participants.tsv
+├── README
+├── sub-gutsaumc0010
+│   └── ses-01
+│       ├── anat
+│       │   ├── ORIGINAL_T1W
+│       │   │   ├── sub-gutsaumc0010_ses-01_acq-ses01_ORIG_T1w_brain_mask.NIFTIGZ
+│       │   │   ├── sub-gutsaumc0010_ses-01_acq-ses01_ORIG_T1w_brain.NIFTIGZ
+│       │   │   └── sub-gutsaumc0010_ses-01_acq-ses01_ORIG_T1w.NIFTIGZ
+│       │   ├── sub-gutsaumc0010_ses-01_acq-ses01_T1w.json
+│       │   └── sub-gutsaumc0010_ses-01_acq-ses01_T1w.nii.gz
+│       ├── func
+│       │   ├── sub-gutsaumc0010_ses-01_task-rest_bold.json
+│       │   └── sub-gutsaumc0010_ses-01_task-rest_bold.nii.gz
+│       └── sub-gutsaumc0010_ses-01_scans.tsv
+├── sub-gutsaumc0011
+│   └── ses-01
+│       ├── anat
+│       │   ├── ORIGINAL_T1W
+│       │   │   ├── sub-gutsaumc0011_ses-01_acq-ses01_ORIG_T1w_brain_mask.NIFTIGZ
+│       │   │   ├── sub-gutsaumc0011_ses-01_acq-ses01_ORIG_T1w_brain.NIFTIGZ
+│       │   │   └── sub-gutsaumc0011_ses-01_acq-ses01_ORIG_T1w.NIFTIGZ
+│       │   ├── sub-gutsaumc0011_ses-01_acq-ses01_T1w.json
+│       │   └── sub-gutsaumc0011_ses-01_acq-ses01_T1w.nii.gz
+│       ├── func
+│       │   ├── sub-gutsaumc0011_ses-01_task-rest_bold.json
+│       │   └── sub-gutsaumc0011_ses-01_task-rest_bold.nii.gz
+│       └── sub-gutsaumc0011_ses-01_scans.tsv
+└── sub-gutsaumc0012
+    └── ses-01
+        ├── anat
+        │   ├── ORIGINAL_T1W
+        │   │   ├── sub-gutsaumc0012_ses-01_acq-ses01_ORIG_T1w_brain_mask.NIFTIGZ
+        │   │   ├── sub-gutsaumc0012_ses-01_acq-ses01_ORIG_T1w_brain.NIFTIGZ
+        │   │   └── sub-gutsaumc0012_ses-01_acq-ses01_ORIG_T1w.NIFTIGZ
+        │   ├── sub-gutsaumc0012_ses-01_acq-ses01_T1w.json
+        │   └── sub-gutsaumc0012_ses-01_acq-ses01_T1w.nii.gz
+        ├── func
+        │   ├── sub-gutsaumc0012_ses-01_task-rest_bold.json
+        │   └── sub-gutsaumc0012_ses-01_task-rest_bold.nii.gz
+        └── sub-gutsaumc0012_ses-01_scans.tsv
+
+15 directories, 28 files
