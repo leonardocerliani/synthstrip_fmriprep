@@ -141,6 +141,8 @@ nohup ./run_fmriprep.sh >> fmriprep.log 2>&1 &
 tail -f fmriprep.log
 ```
 
+Or even better, use [tmux](https://github.com/tmux/tmux/wiki)
+
 > [!TIP]
 > **For large datasets** use `run_fmriprep_batches.sh` instead, which processes subjects in configurable batches and cleans the `work_dir` between each batch to manage disk space.
 
