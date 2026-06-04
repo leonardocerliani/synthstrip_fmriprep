@@ -24,7 +24,7 @@ Unfortunately, it is not that easy to use synthstrip preparations in fmriprep, s
 - it is not possible to directly input a previously generated brain mask in fmriprep
 - it is instead necessary use the `--skull-strip-t1w skip` in the fmriprep command _after overwriting_ the image with the `/anat/*T1w.nii.gz`- which should contain the T1w image _with_ the skull (!) - thereby overtly introducing a wrong reference of the filename with respect to the image content in the BIDS scheme.
 
-In order to prevent the possible loss of the original image, and to allow repeating the procedure if needed using this image, one solution is to create an extra directory in the `bids/sub-XXX_ses-XX/anat` folder, e.g. with the name `ORIGINAL_T1W`. This directory will contain the original T1w image (with skull), as well as the result of synthstrip, thereby e.g. using the commond fsl convention:
+In order to prevent the possible loss of the original image, and to allow repeating the procedure if needed using this image, one solution is to create an extra directory in the `bids/sub-XXX_ses-XX/anat` folder, e.g. with the name `ORIGINAL_T1W`. This directory will contain the original T1w image (with skull), as well as the result of synthstrip, thereby e.g. using the standard fsl convention:
 
 - `sub-XXX_ses-01_acq-sesXX_ORIG_T1w.nii.gz`
 - `sub-XXX_ses-01_acq-sesXX_ORIG_T1w_brain.nii.gz`
@@ -53,13 +53,13 @@ The last resort (which eventually works) is to name the files in the `ORIGINAL_T
 
 `/anat/ORIGINAL_T1W/sub-XXX_ses-01_acq-sesXX_ORIG_T1w_brain.NIFTIGZ` \
 onto\
-`/anat/sub-XXX_ses-01_acq-sesXX_ORIG_T1w.nii.gz`
+`/anat/sub-XXX_ses-01_acq-sesXX_T1w.nii.gz`
 
 6. If there is the need to repeat fmriprep with the original non skull stripped T1w, this copy will be carried out instead:
 
 `/anat/ORIGINAL_T1W/sub-XXX_ses-01_acq-sesXX_ORIG_T1w.NIFTIGZ` \
 onto\
-`/anat/sub-XXX_ses-01_acq-sesXX_ORIG_T1w.nii.gz`
+`/anat/sub-XXX_ses-01_acq-sesXX_T1w.nii.gz`
 
 Importantly, we recommend to run synthstrip with the `--no-csf` option
 - rename the extension `.nii.gz` in the `ORIG*` folder as `.NIFTIGZ` 
